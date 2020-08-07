@@ -61,7 +61,11 @@ module.exports = {
 
       let page = 1
       let routes = [
-        '/v1/menu'
+        '/',
+        '/v1/menu',
+        '/v1/',
+        '/v1/hg-command-center-features/introduction',
+        '/v1/hg-command-center-features/exporting'
       ]
       let results = []
       let count = 0
