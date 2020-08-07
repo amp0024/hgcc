@@ -1,18 +1,18 @@
 const StoryblokClient = require('storyblok-js-client')
 
 // !!! Change to your Storyblok preview token
-const StoryblokToken = 'R5hUgUB9PGoRq2XwtYw14wtt'
+const StoryblokToken = 'W1nIh8vrxUTcmXVkVEHLbAtt'
 
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: 'NuxtDoc - Combining Nuxt.js, Storyblok and Netlify',
+    title: 'Healthgrades - Command Center',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'A setup to build beautiful documentation with Nuxt and Storyblok deployed on Netlify' }
+      { hid: 'description', name: 'description', content: 'Readme examining the features of Command Center.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -51,7 +51,7 @@ module.exports = {
     '@/plugins/components'
   ],
   modules: [
-    ['storyblok-nuxt', {accessToken: 'R5hUgUB9PGoRq2XwtYw14wtt', cacheProvider: 'memory'}]
+    ['storyblok-nuxt', {accessToken: 'W1nIh8vrxUTcmXVkVEHLbAtt', cacheProvider: 'memory'}]
   ],
   generate: {
     routes() {

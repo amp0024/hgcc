@@ -21,7 +21,7 @@
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
     "netrc": "^0.1.4",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^6.0.7"
   }
 }
