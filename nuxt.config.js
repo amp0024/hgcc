@@ -51,7 +51,8 @@ module.exports = {
     '@/plugins/components'
   ],
   modules: [
-    ['storyblok-nuxt', {accessToken: 'W1nIh8vrxUTcmXVkVEHLbAtt', cacheProvider: 'memory'}]
+    ['storyblok-nuxt', {accessToken: 'W1nIh8vrxUTcmXVkVEHLbAtt', cacheProvider: 'memory'}],
+    ['@nuxtjs/redirect-module', { from: '^/', to: '/v1/menu' }, { from: '^/v1', to: '/v1/menu'}]
   ],
   generate: {
     routes() {
